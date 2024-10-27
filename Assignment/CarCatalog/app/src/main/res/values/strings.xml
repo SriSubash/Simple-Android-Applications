@@ -1,0 +1,12 @@
+<resources>
+    <!-- Vehicle array -->
+    <string-array name="vehicle_array">
+        <item>Select a vehicle...</item>
+        <item>Honda Accord</item>
+        <item>Honda Civic</item>
+        <item>Toyota Corolla</item>
+        <item>Chevrolet Corvette</item>
+        <item>Ford Taurus</item>
+    </string-array>
+    <string name="app_name">\n</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SportsPlayerInfo</string>
+    <string-array name="categories">
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Cricket</item>
+        <item>Tennis</item>
+    </string-array>
+</resources>

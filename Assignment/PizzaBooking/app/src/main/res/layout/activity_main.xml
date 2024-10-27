@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Input for Customer Name -->
+        <EditText
+            android:id="@+id/editTextCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Customer Name"
+            android:inputType="textPersonName" />
+
+        <!-- Input for Phone Number -->
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Phone Number"
+            android:minHeight="48dp"
+            android:inputType="phone"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Pizza Shape Selection -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select Pizza Shape"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupShape"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioRound"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Round Pizza"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioSquare"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Square Pizza" />
+
+            <RadioButton
+                android:id="@+id/radioRectangular"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rectangular Pizza" />
+        </RadioGroup>
+
+        <!-- Toppings Selection -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select Toppings"
+            android:textSize="18sp"
+            android:layout_marginTop="24dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPepperoni"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pepperoni" />
+
+        <CheckBox
+            android:id="@+id/checkBoxMushrooms"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mushrooms" />
+
+        <CheckBox
+            android:id="@+id/checkBoxOnions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Onions" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSausage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sausage" />
+
+        <CheckBox
+            android:id="@+id/checkBoxBacon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bacon" />
+
+        <!-- Button to place the order -->
+        <Button
+            android:id="@+id/buttonPlaceOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>

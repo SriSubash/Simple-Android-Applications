@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAR LOAN CALCULATOR"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/editTextCarPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Price"
+        android:minHeight="48dp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextDownPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Down Payment"
+        android:minHeight="48dp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonGenerateReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Loan Report"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

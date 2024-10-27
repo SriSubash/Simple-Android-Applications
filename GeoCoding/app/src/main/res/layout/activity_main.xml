@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter address"
+        android:minHeight="48dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/geocodeButton"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addressEditText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="207dp"
+        android:text="Get Coordinates" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coordinates will appear here"
+        android:layout_below="@id/geocodeButton"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hall Booking</string>
+    <string name="seat_count">SEAT COUNT :</string>
+    <string name="hall">HALL :</string>
+    <string name="seminar_hall_booking">SEMINAR HALL BOOKING</string>
+    <string name="name">NAME :</string>
+    <string name="department">Department</string>
+    <string name="time">TIME :</string>
+    <string name="book_hall">Book Hall</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="hh_mm_ss">hh:mm:ss</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="date">DATE :</string>
+    <string name="department1">DEPARTMENT :</string>
+    <string name="name1">Name</string>
+</resources>

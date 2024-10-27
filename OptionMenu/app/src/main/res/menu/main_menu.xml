@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_add"
+        android:title="Add Item"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete Item"
+        android:orderInCategory="200"
+        />
+</menu>
